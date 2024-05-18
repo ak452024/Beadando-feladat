@@ -90,7 +90,7 @@ class Foglalas:
         self.szalloda.szobak_hozzaadasa(EgyagyasSzoba('18', '1675'))
         self.szalloda.szobak_hozzaadasa(EgyagyasSzoba('19', '1500'))
         self.szalloda.szobak_hozzaadasa(KetagyasSzoba('36', '1995'))
-        self.szalloda.szobak_hozzaadasa(KetagyasSzoba('36', '1995'))
+        self.szalloda.szobak_hozzaadasa(KetagyasSzoba('40', '2100'))
 
     def ui_prompt(self):
         while True:
