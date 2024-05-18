@@ -80,6 +80,7 @@ class Szalloda:
         for szoba in self._szoba:
             return {szoba.szobaszam: szoba.ar}
 
+
 class Foglalas:
     def __init__(self):
         self.szalloda = Szalloda()
@@ -97,7 +98,6 @@ class Foglalas:
             print('2. Foglalas lemondasa')
             print('3. Szabad szobak listazasa')
             print('4. Szoba aranak lekerdezese')
-
             print('5. Kilepes')
 
             kivalasztott_opcio = input('Kerem valasszon a fenti opciok kozul: ')
